@@ -1,0 +1,57 @@
+html{
+    background-color: azure;
+}
+.calculator {
+    font-family: 'Lucida Console';
+    width: 210px;
+    margin:auto;
+    margin-top: 250px;
+    text-align: center;
+    padding:25px;
+    background-color: #51555B;
+    border: 1px solid ;
+    border-radius: 3%;
+}
+.result {
+    text-align: right;
+    font-size: 24px;
+    font-family: 'Lucida Console';
+    color: black;
+    font-weight: bold;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3%;
+    background-color: lawngreen;
+}
+button {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    margin: 2px;
+    border-radius: 10%;
+    background-color:  rgba(245, 245, 245, 0.74);
+    font-family: 'Lucida Console';
+}
+button:hover{
+    background-color:  whitesmoke;
+    font-weight: bold;
+    border: 2.5px solid black;
+}
+button:active{
+    background-color: rgba(245, 245, 245, 0.74);
+    border: 2.5px solid white;
+}
+#clear{
+    background-color:#F83839;
+    font-weight: bold;
+    color: white;
+}
+#clear:hover{
+    color: black;
+}
+#equals{
+    background-color: rgb(205, 218, 60);
+    font-weight: bolder;
+    color: black;
+}
